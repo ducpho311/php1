@@ -17,7 +17,7 @@ if(isset($_POST['btnSubmit'])){
             
             if($passsword === $use['passsword']){
                 $_SESSION['email'] = $use['email'];
-                header("location: ")
+                header("location: ");
             }else{
                 $error1 = "Mật khẩu không đúng";
             }
